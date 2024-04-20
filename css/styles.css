@@ -1,0 +1,309 @@
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-button{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: none;
+}
+
+.menu-button img{
+    width: 2rem;
+    background: white;
+    border-radius: 20%;
+}
+
+.btn-blue{
+    background-color: #5cb8ff;
+    color: white;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.logo{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+.headline p{
+    font-size: 1.7rem;
+}
+
+.init-info{
+    background-image: url('../images/background.jpg');
+    color: #f1f1f1;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 4rem);
+}
+
+.list-items{
+    display: flex;
+}
+
+.list-items li{
+    list-style: none;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.list-items li a{
+    color: #f1f1f1;
+}
+
+.headline{
+    text-align: center;
+    padding: 13rem 0rem 8rem 0rem;
+}
+
+.about-me-style{
+    text-align: center;
+}
+
+.about-me-style h3{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.about-me-content{
+    display: flex;
+    margin: 0;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.about-me-right-content{
+    width: 70%;
+    padding: 3rem;
+}
+
+.img-me{
+    width: 30%;
+    border-radius: 50%;
+    padding: 3rem;
+}
+
+.about-me-content a{
+    margin: 2rem;
+    display: inline-block;
+}
+
+.services-style{
+    text-align: center;
+    background-color: #f7eedd;
+    width: 100%;
+    height: auto;
+}
+
+.services-style h3{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service{
+    width: 29%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+.service img{
+    background-color: white;
+    border-radius: 30%;
+    padding: 0.5rem;
+    width: 2rem;
+    float: right;
+    margin: 1rem;
+}
+
+.services-style .blue-1{
+    background-color: #008dda;
+}
+
+.services-style .blue-2{
+    background-color: #41c9e2;
+}
+
+.service h4{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.service p, .service h4{
+    color: white;
+}
+
+.service p{
+    height: 10rem;
+}
+
+.carousel img{
+    width: auto;
+    height: auto;
+}
+
+.corousel-style{
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.corousel-style h3{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.owl-prev, .owl-next{
+    width: 5rem;
+}
+
+.work-with-us-container{
+    display: flex;
+    text-align: center;
+    padding: 0rem 5rem;
+    padding-bottom: 1rem;
+}
+
+.work-with-us-style{
+    text-align: center;
+    background-color: #97e7e1;
+}
+
+.work-with-us-style h3{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.work-with-us-row{
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1.5rem;
+}
+
+.work-with-us-row img{
+    width: 4rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.work-with-us-row p{
+    line-height: 2rem;
+}
+
+.blog-style{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.blog-style h3{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post{
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.post img{
+    width: 100%;
+}
+
+.post h4{
+    font-size: large;
+    padding: 1rem;
+    margin: 0;
+}
+
+.post p{
+    padding: 0 1.8rem;
+}
+
+.post a{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.contact-style {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-style h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-style p {
+    margin: 5px 0;
+}
+
+.contact-style a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-style a:hover {
+    text-decoration: underline;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
+}
+
+.whatsapp img{
+    width: 3rem;
+}
